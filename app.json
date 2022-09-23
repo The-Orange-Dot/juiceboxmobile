@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "juiceBoxExpo",
-    "slug": "juiceBoxExpo",
+    "name": "Juice Box Mobile",
+    "slug": "juice-box-mobile",
+    "owner": "theorangedot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "scheme": "juiceBoxExpo",
+    "scheme": "com.theorangedot.juice-box-mobile",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,16 +18,24 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theorangedot.juice-box-mobile"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.theorangedot.juice-box-mobile",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b801ded-569a-4fd3-b096-f4e227dde269"
+      }
     }
   }
 }
